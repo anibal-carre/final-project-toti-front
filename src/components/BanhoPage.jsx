@@ -72,7 +72,7 @@ export const BanhoPage = () => {
           {selectedProduct && (
             <div className="preview-modal">
               <img
-                src={`http://127.0.0.1:8000/storage/${selectedProduct.image}`}
+                src={`https://api-toti-laravel-production-14ae.up.railway.app/storage/${selectedProduct.image}`}
                 alt={selectedProduct.name}
                 style={{ height: "180px", width: "200px" }}
               />

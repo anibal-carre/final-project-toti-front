@@ -18,7 +18,9 @@ export const BrinquedosPage = () => {
   };
 
   useEffect(() => {
-    fetch("http://127.0.0.1:8000/api/products")
+    fetch(
+      "https://api-toti-laravel-production-14ae.up.railway.app/api/products"
+    )
       .then((response) => response.json())
       .then((data) => {
         if (data.products && Array.isArray(data.products)) {
@@ -52,7 +54,7 @@ export const BrinquedosPage = () => {
           <div key={product.id} className="destacados-card">
             <Link to={`produtos/${product.category}/${product.name}`}>
               <img
-                src={`http://127.0.0.1:8000/storage/${product.image}`}
+                src={`https://api-toti-laravel-production-14ae.up.railway.app/storage/${product.image}`}
                 alt={product.name}
                 onClick={() => togglePreviewModal(product)}
                 style={{ height: "190px", width: "230px" }}
@@ -69,7 +71,7 @@ export const BrinquedosPage = () => {
           {selectedProduct && (
             <div className="preview-modal">
               <img
-                src={`http://127.0.0.1:8000/storage/${selectedProduct.image}`}
+                src={`https://api-toti-laravel-production-14ae.up.railway.app/storage/${selectedProduct.image}`}
                 alt={selectedProduct.name}
                 style={{ height: "180px", width: "200px" }}
               />
