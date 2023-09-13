@@ -1,0 +1,57 @@
+/* Slideshow.css */
+
+/* Estilo para el carrusel en sí */
+.carousel {
+  background-color: #f8f8f8; /* Cambia el color de fondo según tu preferencia */
+}
+
+/* Estilo para las imágenes en el carrusel */
+.carousel-item img {
+  width: 100%; /* Asegura que las imágenes se ajusten al ancho del carrusel */
+  height: 610px; /* Permite que la altura se ajuste automáticamente */
+}
+
+/* Estilo para los captions de las diapositivas */
+
+
+/* Estilo para el texto del caption h3 */
+.carousel-caption h3 {
+  font-size: 24px; /* Tamaño de fuente para el título */
+  margin: 0; /* Elimina el margen predeterminado */
+}
+
+/* Estilo para el texto del caption p */
+.carousel-caption p {
+  font-size: 16px; /* Tamaño de fuente para el párrafo */
+  margin: 0; /* Elimina el margen predeterminado */
+}
+
+
+
+
+
+/* Estilo para el título principal */
+.main-title {
+  font-size: 40px;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 10px;
+  text-align: center;
+  padding: 40px;
+}
+
+/* Estilo para el texto siguiente */
+.subtext {
+  font-size: 24px;
+  color: #666;
+  line-height: 2;
+   text-align: center;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+.title{
+  text-align: center;
+  padding: 10px;
+  margin-bottom: 25px;
+  font-size:larger;
+}

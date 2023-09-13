@@ -1,0 +1,60 @@
+.card-details {
+  width: 100%;
+  height: 80vh;
+  border: 1px solid black;
+  display: flex;
+}
+
+.product-details {
+  width: 40%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid blue;
+}
+
+.product-image {
+  width: 60%;
+  height: 100%;
+  border: 1px solid blue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.image-container {
+  width: 70%;
+  height: 80%;
+}
+
+.details-container {
+  width: 90%;
+  height: 80%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 1px solid blue;
+  gap: 15px;
+}
+
+.price {
+  font-size: 25px;
+}
+
+.product-btn {
+  width: 200px;
+  border-radius: 3px;
+  border: 1px solid black;
+}
+
+.btn-container {
+  display: flex;
+  gap: 10px;
+  margin-top: 60px;
+}
+
+.principal-img {
+  width: 100%;
+  height: 100%;
+}

@@ -1,0 +1,29 @@
+/* Estilos para el componente Productos */
+.productos-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  select {
+    font-size: 16px;
+    padding: 5px;
+    margin-bottom: 10px;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  li {
+    margin-bottom: 10px;
+  }
+  
+  /* Puedes agregar más estilos según tus necesidades */
+  

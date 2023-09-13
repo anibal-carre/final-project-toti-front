@@ -1,0 +1,89 @@
+
+
+/* Auth.css */
+
+/* Contenedor principal */
+.auth-container {
+  text-align: center;
+  padding: 20px;
+  background-color: #f0f0f0;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  display: inline-block; /* Cambia la visualización a en línea para centrar en el espacio disponible */
+}
+
+/* Estilos para el botón de inicio de sesión con Google */
+.google-sign-in-button {
+  background-color: #4285f4;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  margin-top: 10px;
+  display: inline-block;
+  width: auto;
+  white-space: nowrap; /* Evita que se envuelva el texto */
+}
+
+.google-sign-in-button:hover {
+  background-color: #357ae8;
+}
+
+/* Estilos para el formulario de correo y contraseña */
+.email-sign-in {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Estilos para los campos de entrada de correo y contraseña */
+input[type="email"],
+input[type="password"] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+/* Estilos para los botones de inicio de sesión y registro con correo y contraseña */
+.email-sign-in-button,
+.email-sign-up-button {
+  background-color: #007bff;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  margin-top: 10px;
+  width: 100%;
+  white-space: nowrap;
+}
+
+.email-sign-in-button:hover,
+.email-sign-up-button:hover {
+  background-color: #0056b3;
+}
+
+/* Estilos para el botón de cierre de sesión */
+.sign-out-button {
+  background-color: #dc3545;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  margin-top: 10px;
+  width: 100%;
+  white-space: nowrap;
+}
+
+.sign-out-button:hover {
+  background-color: #bd2130;
+}

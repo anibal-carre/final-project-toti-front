@@ -1,0 +1,101 @@
+/* Estilos para la sección de productos destacados */
+.destacados-section {
+    text-align: center;
+    padding: 30px;
+    
+  }
+  
+  .destacados-section h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  /* Estilos para las tarjetas de productos destacados */
+  .destacados-list {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+  
+  .destacados-card {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 10px;
+    margin: 10px;
+    width: 250px;
+    height: 300px;
+    background-color: #fff;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    transition: transform 0.2s ease-in-out;
+  }
+  
+  .destacados-card:hover {
+    transform: scale(1.05);
+  }
+  
+  .destacados-card img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .destacados-card h3 {
+    font-size: 20px;
+    margin: 10px 0;
+  }
+  
+  .destacados-card button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  .destacados-card button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Estilos para el modal de vista previa */
+  .preview-modal {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .preview-modal img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .preview-modal h3 {
+    font-size: 24px;
+    margin: 10px 0;
+  }
+  
+  .preview-modal p {
+    font-size: 18px;
+    margin: 10px 0;
+  }
+  
+  .preview-modal input[type="number"] {
+    width: 50px;
+    font-size: 16px;
+    padding: 5px;
+  }
+  
+  .preview-modal button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  .preview-modal button:hover {
+    background-color: #0056b3;
+  }
+  

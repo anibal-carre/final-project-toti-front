@@ -1,0 +1,176 @@
+/* Estilos para el logotipo del Navbar */
+.navbar-brand {
+  font-size: 24px;
+  font-weight: bold;
+  color: #fff;
+  text-decoration: none;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  padding: 25px;
+}
+
+/* Estilos para los enlaces del Navbar */
+.navbar-nav {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+  margin-right: 20px;
+}
+
+.nav-item {
+  margin: 0;
+}
+
+.nav-link {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s;
+  font-size: larger;
+  cursor: pointer;
+}
+
+.nav-link:hover {
+  color: #ff9900;
+}
+
+/* Estilos para el logotipo */
+.logo {
+  font-family: "Your-Font-Here", sans-serif;
+  font-size: 30px; /* Tamaño de fuente personalizado */
+  font-weight: bold; /* Puedes ajustar el grosor de la fuente según tu preferencia */
+  color: #ff9900; /* Color personalizado para el logotipo */
+  text-transform: uppercase; /* Convierte el texto en mayúsculas si lo deseas */
+}
+/* Estilos para el logotipo */
+
+/* Efecto de cambio de color al pasar el mouse */
+.logo:hover {
+  color: #ff5733; /* Cambia el color a tu elección */
+  transition: color 0.3s; /* Agrega una transición suave */
+}
+
+/* Efecto de sombra al pasar el mouse */
+.logo:hover {
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.search-icon,
+.cart-icon {
+  cursor: pointer;
+  font-size: 24px;
+  margin-right: 20px;
+  color: #a19e9e;
+  transition: color 0.3s;
+}
+
+.search-icon:hover,
+.cart-icon:hover {
+  color: #ff9900;
+}
+
+/* Estilos para los botones */
+button {
+  background-color: #5ea1ce;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #555;
+  cursor: pointer;
+}
+
+/* Estilos para el formulario de búsqueda */
+input[type="text"] {
+  padding: 10px;
+  width: 100%;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+/* Media query para pantallas de hasta 450px de ancho */
+@media (max-width: 450px) {
+  /* Cambia la dirección de la disposición a vertical */
+  nav {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  /* Estilos para los enlaces cuando están en una disposición vertical */
+  nav a {
+    margin-right: 0; /* Quita el margen derecho */
+    margin-bottom: 10px; /* Añade margen inferior para separar los enlaces */
+    display: block; /* Cambia a bloque para ocupar todo el ancho disponible */
+  }
+
+  /* Estilos para los iconos de búsqueda y carrito cuando están en una disposición vertical */
+  .search-cart-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .search-icon,
+  .cart-icon {
+    margin-right: 0; /* Quita el margen derecho */
+    margin-bottom: 10px; /* Añade margen inferior para separar los iconos */
+  }
+}
+
+/* Estilo para el menú de categorías */
+.categories-menu {
+  display: none; /* Inicialmente, ocultamos el menú de categorías */
+  position: fixed;
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  z-index: 1; /* Asegura que esté por encima de otros elementos */
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  opacity: 0.8;
+  margin-top: 5px;
+}
+
+/* Estilo para los elementos de categoría en el menú */
+.categories-menu li {
+  padding: 10px;
+}
+
+/* Estilo para los enlaces de categoría en el menú */
+.categories-menu a {
+  text-decoration: none;
+  color: #333;
+  transition: color 0.3s;
+}
+
+/* Cambio de color al pasar el ratón por encima de una categoría */
+.categories-menu a:hover {
+  color: #007bff;
+}
+
+/* Estilo para mostrar el menú de categorías cuando está abierto */
+.categories-menu.show {
+  display: block;
+}
+
+/* Estilos para los iconos de búsqueda, carrito y usuario */
+.search-icon,
+.cart-icon,
+.auth-icon {
+  cursor: pointer;
+  font-size: 24px;
+  margin-right: 20px;
+  color: #a19e9e;
+  transition: color 0.3s;
+}
+
+/* Cambio de color al pasar el ratón por encima de los iconos */
+.search-icon:hover,
+.cart-icon:hover,
+.auth-icon:hover {
+  color: #ff9900;
+}

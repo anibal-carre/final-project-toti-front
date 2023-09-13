@@ -1,0 +1,14 @@
+/* Estilo para el contenedor de ProductList */
+.container {
+    position: relative;
+    width: 100%;
+    min-height: 100vh; /* Cambia height a min-height para que funcione si el contenido es más corto */
+  }
+  
+  /* Estilo para el botón de Agregar Producto */
+  #agregar-producto-btn {
+    position: absolute;
+    bottom: 20px; /* 20px desde la parte inferior del contenedor */
+    right: 20px; /* 20px desde la parte derecha del contenedor */
+  }
+  

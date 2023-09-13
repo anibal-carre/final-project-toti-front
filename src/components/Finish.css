@@ -1,0 +1,56 @@
+.finish-container {
+  background-color: #fff; /* Cambia el fondo a transparente */
+  padding: 50px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  max-width: 550px;
+  height: 500px;
+  margin: 40px auto;
+}
+
+.divider {
+  height: 1px;
+  background-color: lightgray;
+  margin-top: 30px;
+}
+
+.product-cart-card {
+  height: 80px;
+  width: 100%;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  box-shadow: 1px 1px 2px black;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 10px 0;
+  background-color: #f1f1f1;
+}
+
+.cards-container {
+  overflow-y: auto;
+  height: 300px;
+  padding: 10px;
+}
+
+.total {
+  font-weight: 500;
+  font-size: 20px;
+}
+
+.card-payment {
+  border: 1px solid black;
+  display: flex;
+  height: 50px;
+  align-items: center;
+  padding: 0 10px;
+  justify-content: space-between;
+}
+
+.div-modal {
+  height: 300px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}

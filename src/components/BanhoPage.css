@@ -1,0 +1,53 @@
+/* Estilos para la portada de la categoría */
+.category-cover {
+    background-image: url('https://media.istockphoto.com/id/514320720/es/foto/bulldog-franc%C3%A9s-cachorro-y-gatito.jpg?s=612x612&w=0&k=20&c=A77jNVDiKLQ5qR1LhNxTt-520n5FeOiH2EM5AuCRHOE='); /* Cambia 'ruta/imagen_de_fondo.jpg' por la URL de tu imagen de fondo */
+    background-size: cover;
+    background-position: center;
+    color: #fff; /* Color del texto en la portada */
+    text-align: center;
+    padding: 90px;
+    max-width: 100%;
+    height: 400px;
+    margin-bottom: 20px;
+    
+  }
+  
+  .category-cover h2 {
+    font-size: 36px;
+    margin: 0;
+    padding: 10px;
+    background-color: rgba(221, 216, 216, 0.7); /* Fondo semi-transparente para el título */
+    border-radius: 5px;
+  }
+  
+  /* Estilos para las tarjetas de productos */
+  .product-card {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 20px;
+    margin: 10px;
+    max-width: 300px;
+    text-align: center;
+    background-color: #fff; /* Color de fondo de la tarjeta */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 250px;
+    height: 300px;
+  }
+  
+  .product-card img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+  }
+  
+  .product-card h3 {
+    font-size: 24px;
+    margin: 0;
+  }
+  
+  .product-card p {
+    font-size: 18px;
+    color: #333; /* Color del precio */
+    margin: 10px 0;
+  }
+  
